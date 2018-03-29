@@ -1,0 +1,245 @@
+<nav class="side-navbar">
+  <div class="side-navbar-wrapper">
+    <!-- Sidebar Header    -->
+    <div class="sidenav-header d-flex align-items-center justify-content-center">
+      <!-- User Info-->
+      <div class="sidenav-header-inner text-center">
+        <img src="../../assets/img/logo2.jpg"  class="img-fluid rounded-circle" width="150px" height="100px">
+
+      </div>
+    </div>
+    <!-- Sidebar Navigation Menus-->
+    <div class="main-menu">
+
+      <ul id="side-main-menu" class="side-menu list-unstyled">
+        <li><a routerLink="/home"> <i class="icon-home"></i>Dashbord                            </a></li>
+        <li><a routerLink="/github"><i class="fa fa-themeisle"></i>Forge                             </a></li>
+        <li><a routerLink="/forge"> <i class="fa fa-github"></i>Github                           </a></li>
+        <li><a routerLink="/chartes"> <i class="fa fa-bar-chart"></i>Chartes                             </a></li>
+        <li><a routerLink="/rapports"> <i class="fa fa-file-o"></i>Rapports                             </a></li>
+
+
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<div class="page">
+  <header class="header">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-holder d-flex align-items-center justify-content-between">
+          <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="index.html" class="navbar-brand">
+            <div class="brand-text d-none d-md-inline-block"><span>Github </span><strong class="text-primary">Dashboard</strong></div></a></div>
+          <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+            <li class="nav-item dropdown"> <a id="notifications" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-bell"></i><span class="badge badge-warning">12</span></a>
+              <ul aria-labelledby="notifications" class="dropdown-menu">
+                <li><a rel="nofollow" href="#" class="dropdown-item">
+                  <div class="notification d-flex justify-content-between">
+                    <div class="notification-content"><i class="fa fa-envelope"></i>You have 6 new messages </div>
+                    <div class="notification-time"><small>4 minutes ago</small></div>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item">
+                  <div class="notification d-flex justify-content-between">
+                    <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
+                    <div class="notification-time"><small>4 minutes ago</small></div>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item">
+                  <div class="notification d-flex justify-content-between">
+                    <div class="notification-content"><i class="fa fa-upload"></i>Server Rebooted</div>
+                    <div class="notification-time"><small>4 minutes ago</small></div>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item">
+                  <div class="notification d-flex justify-content-between">
+                    <div class="notification-content"><i class="fa fa-twitter"></i>You have 2 followers</div>
+                    <div class="notification-time"><small>10 minutes ago</small></div>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>view all notifications                                            </strong></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">10</span></a>
+              <ul aria-labelledby="notifications" class="dropdown-menu">
+                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
+                  <div class="msg-profile"> <img src="../../assets/img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
+                  <div class="msg-body">
+                    <h3 class="h5">Jason Doe</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
+                  <div class="msg-profile"> <img src="../../assets/img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle"></div>
+                  <div class="msg-body">
+                    <h3 class="h5">Frank Williams</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item d-flex">
+                  <div class="msg-profile"> <img src="../../assets/img/avatar-3.jpg" alt="..." class="img-fluid rounded-circle"></div>
+                  <div class="msg-body">
+                    <h3 class="h5">Ashley Wood</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
+                  </div></a></li>
+                <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="login.html" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="dashboard-counts section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket ouverte</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket En cours</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket Résolue</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket Fermée</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket A Faire</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+        <!-- Count item widget-->
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="wrapper count-title d-flex">
+            <div class="icon"><i class="icon-padnote"></i></div>
+            <div class="name"><strong class="text-uppercase">Ticket Rouverte</strong><span>Last 5 days</span>
+              <div class="count-number">400</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Header Section-->
+  <section class="dashboard-header section-padding">
+    <div class="container-fluid">
+      <div class="row d-flex align-items-md-stretch">
+        <!-- To Do List-->
+
+        <!-- Pie Chart-->
+
+        <!-- Line Chart -->
+        <div class="col-lg-12 col-md-12 flex-lg-last flex-md-first align-self-baseline">
+          <div class="card sales-report">
+            <h2 class="display h4">Forge report</h2>
+
+            <div class="input-group">
+              <label class="checkbox-inline"><input type="checkbox" value="">Filter 1</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Filter 2</label>
+              <label class="checkbox-inline"><input type="checkbox" value="">Filter 3</label>
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Chartes
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Charte0</a>
+                  <a class="dropdown-item" href="#">Charte1</a>
+                  <a class="dropdown-item" href="#">Charte2</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <input type="button" class="btn-primary " value="Générer charte">
+            </div>
+            <div class="line-chart">
+              <canvas id="lineCahrt"></canvas>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Statistics Section-->
+  <section class="statistics">
+    <div class="container-fluid">
+      <div class="row d-flex">
+        <div class="col-lg-4">
+          <!-- Income-->
+          <div class="card income text-center">
+            <div class="icon"><i class="icon-line-chart"></i></div>
+            <div class="number">126,418</div><strong class="text-primary">All Income</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <!-- Monthly Usage-->
+          <div class="card data-usage">
+            <h2 class="display h4">Monthly Usage</h2>
+            <div class="row d-flex align-items-center">
+              <div class="col-sm-6">
+                <div id="progress-circle" class="d-flex align-items-center justify-content-center"></div>
+              </div>
+              <div class="col-sm-6"><strong class="text-primary">80.56 Gb</strong><small>Current Plan</small><span>100 Gb Monthly</span></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <!-- User Actibity-->
+          <div class="card user-activity">
+            <h2 class="display h4">User Activity</h2>
+            <div class="number">210</div>
+            <h3 class="h4 display">Social Users</h3>
+            <div class="progress">
+              <div role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar bg-primary"></div>
+            </div>
+            <div class="page-statistics d-flex justify-content-between">
+              <div class="page-statistics-left"><span>Pages Visits</span><strong>230</strong></div>
+              <div class="page-statistics-right"><span>New Visits</span><strong>73.4%</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Your company &copy; 2017-2019</p>
+        </div>
+        <div class="col-sm-6 text-right">
+
+          <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
